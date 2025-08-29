@@ -62,3 +62,19 @@ car2.drive(120)
 
 car1.refuel()
 car2.recharge()
+
+
+# Activity 2
+
+Vehicle Classes
+class Car(Entity):
+    def sound(self):
+        return "Vroom Vroom!"
+
+
+class Plane:
+    def sound(self):
+        return "Whooosh!"
+
+for vehicle in [Car(), Plane()]:
+    print(vehicle.sound())
